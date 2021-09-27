@@ -1,0 +1,185 @@
+@charset "utf-8";
+
+header{
+  position: relative;
+  height: 100px; background-color: #fff;
+  box-shadow:10px 0px 5px 2px rgb(191, 191, 191);  
+  padding: 0 20px;}
+
+.inner{ width: 1200px; margin: 0 auto;}
+  
+header h1{
+  margin-left: 50px;
+   width: 100px; height: 100px;}
+/* header h1 img{ width: 100%;} */
+
+nav{ }
+nav ul{position: absolute; top: 50%; left: 50%;
+transform: translate(-50%,-50%);}
+
+nav ul li{ float: left; margin-right: 20px; }
+
+nav ul li:last-child{ margin-right: 0;}
+
+nav ul li:hover a{
+ font-weight: 700;}
+nav ul li a{
+  display: block;
+  padding: 0 20px; 
+  font-size: 20px;}
+
+.nav_span{ position: absolute; top: 45px; right: 300px; } 
+.nav_span a{
+  font-size: 0;
+  display: block; width: 20px; height: 2px;
+  background-color: #000;
+}
+.nav_span a span{
+  display: block; width: 20px; height: 2px;
+  background-color: #000; margin-bottom: 3px;}
+
+.banner .on{ position: absolute; top: 50%; right: 300px;
+  transform: translateY(-50%); 
+  display: block;
+  text-align: center; line-height: 50px; 
+  width: 150px; height: 50px;
+  font-size: 15px;
+border: 1px solid #000;
+transition: all 0.5s;}
+
+.banner .on:hover{
+  transform: translateY(-10px);
+}
+.see{ transition: all 0.3s;}
+.see:hover{
+  border-bottom: 1px solid #000; }
+
+  /* #sect2{ 
+    width: 1200px;
+     margin: 0 auto;} */
+
+  #aside{ margin-left: 50px;}
+  
+  #sect2{ margin-bottom: 150px;}
+  #cont2 h2{
+    margin-right: 50px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 110px; 
+    text-align: center; }
+  
+  .perfume li{
+   width: calc(100% / 3);
+    float: left;}
+  
+  .perfume li img { width: 350px;}
+  
+  .swiper-slide h3{
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 8px; }
+  
+  .p1{ margin-right: 50px; 
+  font-size: 14px; color: #474747;
+  margin-bottom: 12px;
+  text-align: center;}
+  .p2{    margin-right: 50px; 
+  font-size: 15px; 
+  font-weight: 700; color: #333; 
+  text-align: center;}
+
+
+  .cont3 li, .cont4 li, .cont5 li, .cont6 li, .cont7 li
+  {float: left;
+  width: calc(100% / 2);}
+  
+  .cont3 li p, .cont5 li p{ 
+  font-size: 30px; font-weight: 700;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 30px;}
+
+.cont3 li span, .cont5 li span{
+  font-size: 17px;
+  text-align: center;
+  margin-left: 250px;
+  transition: all 0.5s; }
+
+.cont3 li span:hover, .cont4 li span:hover, .cont5 li span:hover, .cont6 li span:hover{ 
+  border-bottom: 1px solid #000;
+  color: palevioletred; }
+
+.cont3 li img, .cont4 li img, .cont5 li img, .cont6 li img{ width: 400px;}
+
+.cont4 li p, .cont6 li p{
+  font-size: 30px; font-weight: 700;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  margin-right: 250px;
+}
+.cont4 li span, .cont6 li span{
+  font-size: 17px;
+  text-align: center;
+  transition: all 0.5s; 
+  margin-left: 120px;
+}
+
+#sect5{ margin-bottom: 100px;}
+#sect6{ margin-bottom: 200px;}
+#sect7{ 
+  border-top: 1px solid #eee;
+/* border-bottom: 1px solid #eee; */
+margin-bottom: 100px;}
+
+.cont7 li a{ } 
+/* .cont7 li img{ border-bottom: 1px solid #eee;} */
+
+.cont7p1{ 
+text-align: center; font-size: 16px;
+margin-top: 20px; margin-bottom: 5px;}
+.cont7p2{ 
+text-align: center;
+font-size: 25px; font-weight: 700;
+margin-bottom: 20px;}
+.cont7s{
+  margin-left: 230px;
+  width: 150px; height: 50px; line-height: 50px;
+  display: block; background-color: #000;
+  color: #fff; text-align: center;
+  transition: all 0.5s;
+}
+
+.cont7s:hover{
+  transform: translateY(-10px);
+  border: 1px solid #000; color: #000;
+background-color: #fff;
+}
+
+footer{
+  border-top: 1px solid #eee;
+  padding: 10px 0;
+  /* margin-left: 50px;  */
+  position: relative;
+  margin-top: 20px;
+}
+.ft{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+footer p{
+ line-height: 30px;
+/* margin-left: 100px; */
+ opacity: 0.8;
+margin-bottom: 10px;}
+
+ .sns{position: absolute; top: 10px; right: 400px;}
+ .sns ul li{
+display: inline-block;
+width: 30px; height: 30px;
+opacity: 0.5;}
+
+.sns ul li a{ display: block;}
+.sns ul li a img{ width: 100%;}
